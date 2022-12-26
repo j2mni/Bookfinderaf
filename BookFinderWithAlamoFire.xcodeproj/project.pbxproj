@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29A9CD372913937200554262 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A9CD362913937200554262 /* AppDelegate.swift */; };
+		29A9CD392913937200554262 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A9CD382913937200554262 /* SceneDelegate.swift */; };
+		29A9CD3B2913937200554262 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A9CD3A2913937200554262 /* ViewController.swift */; };
+		29A9CD3E2913937200554262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A9CD3C2913937200554262 /* Main.storyboard */; };
+		29A9CD402913937200554262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29A9CD3F2913937200554262 /* Assets.xcassets */; };
+		29A9CD432913937200554262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A9CD412913937200554262 /* LaunchScreen.storyboard */; };
+		29A9CD4C2913953A00554262 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 29A9CD4B2913953A00554262 /* Alamofire */; };
+		29A9CD4F291395F600554262 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 29A9CD4E291395F600554262 /* Kingfisher */; };
+		29A9CD522913969E00554262 /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 29A9CD512913969E00554262 /* ProgressHUD */; };
+		29A9CD54291396BA00554262 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A9CD53291396BA00554262 /* MainTableViewController.swift */; };
+		29A9CD5629139AD400554262 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A9CD5529139AD400554262 /* Book.swift */; };
+		29A9CD5A2913A83A00554262 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A9CD592913A83A00554262 /* BookCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29A9CD332913937200554262 /* BookFinderWithAlamoFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookFinderWithAlamoFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A9CD362913937200554262 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29A9CD382913937200554262 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		29A9CD3A2913937200554262 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29A9CD3D2913937200554262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29A9CD3F2913937200554262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29A9CD422913937200554262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29A9CD442913937200554262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29A9CD53291396BA00554262 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		29A9CD5529139AD400554262 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		29A9CD592913A83A00554262 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29A9CD302913937200554262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A9CD522913969E00554262 /* ProgressHUD in Frameworks */,
+				29A9CD4F291395F600554262 /* Kingfisher in Frameworks */,
+				29A9CD4C2913953A00554262 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29A9CD2A2913937100554262 = {
+			isa = PBXGroup;
+			children = (
+				29A9CD352913937200554262 /* BookFinderWithAlamoFire */,
+				29A9CD342913937200554262 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29A9CD342913937200554262 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29A9CD332913937200554262 /* BookFinderWithAlamoFire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29A9CD352913937200554262 /* BookFinderWithAlamoFire */ = {
+			isa = PBXGroup;
+			children = (
+				29A9CD362913937200554262 /* AppDelegate.swift */,
+				29A9CD382913937200554262 /* SceneDelegate.swift */,
+				29A9CD3A2913937200554262 /* ViewController.swift */,
+				29A9CD53291396BA00554262 /* MainTableViewController.swift */,
+				29A9CD592913A83A00554262 /* BookCell.swift */,
+				29A9CD5529139AD400554262 /* Book.swift */,
+				29A9CD3C2913937200554262 /* Main.storyboard */,
+				29A9CD3F2913937200554262 /* Assets.xcassets */,
+				29A9CD412913937200554262 /* LaunchScreen.storyboard */,
+				29A9CD442913937200554262 /* Info.plist */,
+			);
+			path = BookFinderWithAlamoFire;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29A9CD322913937200554262 /* BookFinderWithAlamoFire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29A9CD472913937200554262 /* Build configuration list for PBXNativeTarget "BookFinderWithAlamoFire" */;
+			buildPhases = (
+				29A9CD2F2913937200554262 /* Sources */,
+				29A9CD302913937200554262 /* Frameworks */,
+				29A9CD312913937200554262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookFinderWithAlamoFire;
+			packageProductDependencies = (
+				29A9CD4B2913953A00554262 /* Alamofire */,
+				29A9CD4E291395F600554262 /* Kingfisher */,
+				29A9CD512913969E00554262 /* ProgressHUD */,
+			);
+			productName = BookFinderWithAlamoFire;
+			productReference = 29A9CD332913937200554262 /* BookFinderWithAlamoFire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29A9CD2B2913937100554262 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					29A9CD322913937200554262 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 29A9CD2E2913937100554262 /* Build configuration list for PBXProject "BookFinderWithAlamoFire" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29A9CD2A2913937100554262;
+			packageReferences = (
+				29A9CD4A2913953A00554262 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				29A9CD4D291395F600554262 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				29A9CD502913969E00554262 /* XCRemoteSwiftPackageReference "ProgressHUD" */,
+			);
+			productRefGroup = 29A9CD342913937200554262 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29A9CD322913937200554262 /* BookFinderWithAlamoFire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29A9CD312913937200554262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A9CD432913937200554262 /* LaunchScreen.storyboard in Resources */,
+				29A9CD402913937200554262 /* Assets.xcassets in Resources */,
+				29A9CD3E2913937200554262 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29A9CD2F2913937200554262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A9CD5A2913A83A00554262 /* BookCell.swift in Sources */,
+				29A9CD54291396BA00554262 /* MainTableViewController.swift in Sources */,
+				29A9CD3B2913937200554262 /* ViewController.swift in Sources */,
+				29A9CD372913937200554262 /* AppDelegate.swift in Sources */,
+				29A9CD5629139AD400554262 /* Book.swift in Sources */,
+				29A9CD392913937200554262 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29A9CD3C2913937200554262 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29A9CD3D2913937200554262 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29A9CD412913937200554262 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29A9CD422913937200554262 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29A9CD452913937200554262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29A9CD462913937200554262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29A9CD482913937200554262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BookFinderWithAlamoFire/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = womansup2022.lsy.BookFinderWithAlamoFire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29A9CD492913937200554262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BookFinderWithAlamoFire/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = womansup2022.lsy.BookFinderWithAlamoFire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29A9CD2E2913937100554262 /* Build configuration list for PBXProject "BookFinderWithAlamoFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A9CD452913937200554262 /* Debug */,
+				29A9CD462913937200554262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29A9CD472913937200554262 /* Build configuration list for PBXNativeTarget "BookFinderWithAlamoFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A9CD482913937200554262 /* Debug */,
+				29A9CD492913937200554262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		29A9CD4A2913953A00554262 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		29A9CD4D291395F600554262 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		29A9CD502913969E00554262 /* XCRemoteSwiftPackageReference "ProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/relatedcode/ProgressHUD.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		29A9CD4B2913953A00554262 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29A9CD4A2913953A00554262 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		29A9CD4E291395F600554262 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29A9CD4D291395F600554262 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		29A9CD512913969E00554262 /* ProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29A9CD502913969E00554262 /* XCRemoteSwiftPackageReference "ProgressHUD" */;
+			productName = ProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 29A9CD2B2913937100554262 /* Project object */;
+}
